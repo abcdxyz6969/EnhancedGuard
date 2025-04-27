@@ -1,0 +1,44 @@
+---
+language: "vi" # Available: en, vi
+
+op_list:
+  - "rioeyu"
+
+sensitive_permissions:
+  - "*"
+  - "essentials.*"
+  - "worldedit.*"
+  - "worldguard.*"
+  - "luckperms.*"
+
+punish_command:
+  - "deop %player%"
+  - "lp user %player% permission clear"
+  - "ban %player% Exploit detected"
+
+blacklisted_prefixes:
+  - "MCSTORM_"
+  - "BOT_"
+  - "STRESS_"
+
+blacklisted_terms:
+  - "stress"
+  - "mcstorm"
+  - "bot"
+  - "ddos"
+  - "attack"
+
+packet_protection:
+  enabled: true
+  blocked_channels:
+    - "tab:bridge-4"
+    - "tab:bridge-5"
+    - "tab:bridge-6"
+
+blacklist_commands:
+  - "kick %player% Invalid name"
+
+disable_op_command: false
+block_gamemode_creative: true
+stop_server: true
+config_version: 1.0

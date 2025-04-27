@@ -1,0 +1,22 @@
+name: EnhancedGuard
+version: '1.0-SNAPSHOT'
+main: me.rioeyu.enhancedGuard.EnhancedGuard
+api-version: '1.20'
+prefix: EnhancedGuard
+authors: [ rioeyu ]
+description: ${messages.plugin.description}
+website: example.com
+
+commands:
+  enhancedguard:
+    description: ${messages.commands.enhancedguard_description}
+    aliases: [eg]
+    permission: enhancedguard.admin
+  egreloadconfig:
+    description: ${messages.commands.reload_description}
+    permission: enhancedguard.admin
+
+permissions:
+  enhancedguard.admin:
+    description: Access to EnhancedGuard administrative commands
+    default: op

@@ -1,0 +1,24 @@
+plugin:
+  description: "EnhancedGuard giúp bảo vệ máy chủ của bạn khỏi các lỗ hổng và truy cập trái phép"
+  header: "Plugin này được viết bởi FTL2nd, đây là tài nguyên miễn phí"
+  warning: "Nếu bạn phải \"trả tiền\" để sử dụng plugin này, bạn đã bị lừa!"
+
+config:
+  op_list_description: "Danh sách những người chơi được phép sở hữu quyền OP"
+  sensitive_perms_description: "Các quyền mà những người chơi nằm ngoài danh sách ở trên không được sở hữu (Quyền nhạy cảm)"
+  punish_command_description: "Lệnh thực thi nếu người chơi nằm ngoài danh sách có quyền OP hoặc quyền nhạy cảm"
+  blacklist_prefixes_description: "Danh sách tiền tố tên người chơi bị cấm"
+  blacklist_terms_description: "Danh sách các cụm từ bị cấm trong tên người chơi"
+
+commands:
+  enhancedguard_description: "Lệnh chính của EnhancedGuard"
+  reload_description: "Reload cấu hình plugin"
+  no_permission: "Bạn không có quyền sử dụng lệnh này"
+
+punishments:
+  invalid_name: "Tên người chơi không hợp lệ!"
+  op_exploit: "Khai thác OP"
+
+packet:
+  blocked: "Phát hiện packet độc hại!"
+  blocked_channel: "Đã chặn kênh từ {0}: {1}"

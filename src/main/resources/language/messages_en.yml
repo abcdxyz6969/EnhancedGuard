@@ -1,0 +1,24 @@
+plugin:
+  description: "EnhancedGuard helps protect your server from exploits and unauthorized access"
+  header: "This plugin is written by FTL2nd and is free software"
+  warning: "If you had to \"pay\" to use this plugin, you have been scammed!"
+
+config:
+  op_list_description: "List of players allowed to have OP permissions"
+  sensitive_perms_description: "Permissions that players outside the above list cannot have (Sensitive permissions)"
+  punish_command_description: "Commands to execute if a player outside the list has OP or sensitive permissions"
+  blacklist_prefixes_description: "List of banned player name prefixes"
+  blacklist_terms_description: "List of banned terms in player names"
+
+commands:
+  enhancedguard_description: "EnhancedGuard main command"
+  reload_description: "Reload plugin configuration"
+  no_permission: "You don't have permission to use this command"
+
+punishments:
+  invalid_name: "Invalid player name!"
+  op_exploit: "OP Exploitation"
+
+packet:
+  blocked: "Malicious packet detected!"
+  blocked_channel: "Blocked channel from {0}: {1}"
